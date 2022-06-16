@@ -7,7 +7,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class RequestResponseExample {
-  private static final Logger LOG = LoggerFactory.getLogger(RequestResponseExample.class);
 
   public static void main(String[] args) {
 
@@ -28,9 +27,9 @@ public class RequestResponseExample {
       final var message = "Hello World!";
       LOG.debug("Sending: {}", message);
 
-      eventBus.<String>request(ADDRESS, message, reply -> {
-        LOG.debug("Response: {}", reply.result().body());
-      });
+      eventBus.<String>request(ADDRESS, message, reply ->
+        LOG.debug("Response: {}", reply.result().body())
+      );
     }
 
   }
