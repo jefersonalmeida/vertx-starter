@@ -20,7 +20,7 @@ val vertxVersion = "4.3.1"
 val junitJupiterVersion = "5.8.2"
 val jacksonVersion = "2.13.3"
 
-val mainVerticleName = "com.jefersonalmeida.vertx.vertx_starter.Main"
+val mainVerticleName = "com.jefersonalmeida.vertx.starter.Main"
 val launcherClassName = "io.vertx.core.Launcher"
 
 val watchForChange = "src/**/*"
