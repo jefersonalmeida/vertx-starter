@@ -12,10 +12,10 @@ public class Main extends AbstractVerticle {
 
   private static final Logger LOG = LoggerFactory.getLogger(Main.class);
 
-  public static void main(String[] args) {
-    final var vertx = Vertx.vertx();
-    vertx.deployVerticle(new Main());
-  }
+//  public static void main(String[] args) {
+//    final var vertx = Vertx.vertx();
+//    vertx.deployVerticle(new Main());
+//  }
 
   @Override
   public void start(Promise<Void> startPromise) throws Exception {
@@ -33,8 +33,6 @@ public class Main extends AbstractVerticle {
         }
       });
 
-//    vertx.setPeriodic(500, id -> {
-//      LOG.debug(String.valueOf(new Random().nextDouble()));
-//    });
+    vertx.setPeriodic(500, id -> LOG.debug(String.valueOf(new Random().nextDouble())));
   }
 }
