@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.eventbus.customcodec;
+package com.jefersonalmeida.vertx.vertx_starter.eventbus.customcodec;
 
 public class Ping {
   private String message;

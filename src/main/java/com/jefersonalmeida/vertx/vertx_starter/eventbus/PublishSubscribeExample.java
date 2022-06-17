@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.eventbus;
+package com.jefersonalmeida.vertx.vertx_starter.eventbus;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;

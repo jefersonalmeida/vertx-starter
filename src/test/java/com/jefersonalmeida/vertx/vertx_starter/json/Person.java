@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.json;
+package com.jefersonalmeida.vertx.vertx_starter.json;
 
 public class Person {
   private Integer id;

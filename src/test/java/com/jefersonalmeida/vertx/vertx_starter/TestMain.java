@@ -1,5 +1,6 @@
-package com.jefersonalmeida.vertx_starter;
+package com.jefersonalmeida.vertx.vertx_starter;
 
+import com.jefersonalmeida.vertx.vertx_starter.Main;
 import io.vertx.core.Vertx;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
@@ -16,7 +17,7 @@ public class TestMain {
   }
 
   @Test
-  void verticle_deployed(Vertx vertx, VertxTestContext testContext) throws Throwable {
+  void verticle_deployed(Vertx vertx, VertxTestContext testContext) {
     testContext.completeNow();
   }
 }

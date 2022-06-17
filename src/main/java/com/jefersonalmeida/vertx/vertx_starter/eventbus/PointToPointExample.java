@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.eventbus;
+package com.jefersonalmeida.vertx.vertx_starter.eventbus;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
@@ -37,9 +37,9 @@ public class PointToPointExample {
     @Override
     public void start(Promise<Void> startPromise) throws Exception {
       startPromise.complete();
-      vertx.eventBus().<String>consumer(Sender.class.getName(), message -> {
-        LOG.debug("Received: {}", message.body());
-      });
+      vertx.eventBus().<String>consumer(Sender.class.getName(), message ->
+        LOG.debug("Received: {}", message.body())
+      );
     }
   }
 }

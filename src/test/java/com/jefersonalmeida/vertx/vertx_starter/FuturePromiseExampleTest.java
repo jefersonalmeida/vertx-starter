@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter;
+package com.jefersonalmeida.vertx.vertx_starter;
 
 import io.vertx.core.CompositeFuture;
 import io.vertx.core.Future;

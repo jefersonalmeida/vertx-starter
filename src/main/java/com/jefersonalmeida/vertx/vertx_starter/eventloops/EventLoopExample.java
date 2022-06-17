@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.eventloops;
+package com.jefersonalmeida.vertx.vertx_starter.eventloops;
 
 import io.vertx.core.*;
 import org.slf4j.Logger;

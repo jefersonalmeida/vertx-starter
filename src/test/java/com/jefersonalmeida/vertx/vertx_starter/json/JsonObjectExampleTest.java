@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.json;
+package com.jefersonalmeida.vertx.vertx_starter.json;
 
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;

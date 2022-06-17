@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.eventbus.customcodec;
+package com.jefersonalmeida.vertx.vertx_starter.eventbus.customcodec;
 
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.eventbus.MessageCodec;

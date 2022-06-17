@@ -1,4 +1,4 @@
-package com.jefersonalmeida.vertx_starter.verticles;
+package com.jefersonalmeida.vertx.vertx_starter.verticles;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;

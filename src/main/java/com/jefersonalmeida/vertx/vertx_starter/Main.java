@@ -1,8 +1,7 @@
-package com.jefersonalmeida.vertx_starter;
+package com.jefersonalmeida.vertx.vertx_starter;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
-import io.vertx.core.Vertx;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
